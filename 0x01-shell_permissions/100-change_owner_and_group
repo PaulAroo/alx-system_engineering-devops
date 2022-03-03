@@ -1,2 +1,3 @@
 #!/bin/bash
-for FILE in *; do sudo chown vincent $FILE && chgrp staff $FILE; done
+chown -R vincent
+chgrp -R staff
